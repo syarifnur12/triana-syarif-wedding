@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: "Georgia", serif;
+  background: #f9f7f4;
+  color: #333;
+  text-align: center;
+}
+
+#cover {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #ece6dd;
+}
+
+#cover h2 {
+  font-size: 2.5rem;
+}
+
+button {
+  padding: 12px 24px;
+  border: none;
+  background: #8c6d4f;
+  color: white;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.section {
+  padding: 40px 20px;
+}
+
+.couple {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+textarea {
+  width: 80%;
+  height: 100px;
+}
+
+footer {
+  padding: 30px;
+  background: #ece6dd;
+}
